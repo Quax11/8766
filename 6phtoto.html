@@ -1,4 +1,17 @@
 <center>
-<p><img src="https://www.facebook.com/23f6f271-b968-496b-b6a8-1e14083b3c47" alt="loading"></p>
- 
+<video id="myVideo" class="wp-block-video" controls src="https://cdn.videy.co/2Ya6ydq5.mp4"></video>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var videoElement = document.getElementById('myVideo');
+    var hasRedirected = false; // Variable to track if the redirection has happened
+
+    videoElement.addEventListener('play', function () {
+      if (!hasRedirected) {
+        hasRedirected = true; // Mark that the redirection has happened
+        videoElement.pause(); // Pause the video before redirection
+        window.open("https://sprayearthy.com/xtenjphnhw?key=47947fd65bb459037dafc188d6512c09", "_blank"); // Open the URL in a new tab
+      }
+    });
+  });
+</script>
 </center>
